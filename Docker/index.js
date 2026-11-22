@@ -5,7 +5,7 @@ const server = http.createServer((request, response) => {
   response.end("<h1>Hello from Node.js!</h1>\n<p>This website is running in Docker.</p>");
 });
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8000;
 server.listen(port, "0.0.0.0", () => {
   console.log(`Website listening on port ${port}`);
 });

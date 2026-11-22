@@ -11,7 +11,7 @@ COPY package*.json ./
 COPY index.js ./
 
 # Make port 8000 available to the container
-EXPOSE 8000
+EXPOSE 8000-8007
 
 # Start the Node.js application
 CMD ["npm", "start"]
